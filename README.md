@@ -73,7 +73,7 @@ The `$response` parameter is an array with following keys/values:
 2. `eff-url`: the "effective" url - the actual URL of the page after redirects (if there were any)
 3. `body`: the response body (as HTML, CSS, JS or whatever)
 
-# Additional useful info
+## Additional useful info
 
  - Bear in mind that all the cookies from the source are **always** forwarded the end-user.
  - Any external call from the page (call for frames; JS; CSS;) are NOT proxied by default and that is
@@ -81,9 +81,9 @@ The `$response` parameter is an array with following keys/values:
  Direct requests to external assets make the user experience faster. If you want to proxy these too, you can use a plugin
  to overwrite URLs.
  - Default user credentials:
-    1. Username: user1@example.com; Passowrd: 12345
-    2. Username: user2@example.com; Passowrd: 123456
-    3. Username: user3@example.com; Passowrd: 1234567
+    1. Username: user1@example.com; Password: 12345
+    2. Username: user2@example.com; Password: 123456
+    3. Username: user3@example.com; Password: 1234567
 
 ## Suggestions?
 
