@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Web Proxy login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="login/assets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="login/assets/signin.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="login/assets/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="login/assets/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+
+    <form class="form-signin" method="post">
+        <h2 class="form-signin-heading">Welcome to Web Proxy</h2>
+        <p>Login to enter the proxy service and gain access to a remote location.</p>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input name="email" type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input name="pass" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input name="proxy-login" type="hidden">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    </form>
+
+    <p style="font-size: smaller; text-align: center">This is an open source project hosted on GitHub.</p>
+
+</div> <!-- /container -->
+
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="login/assets/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
